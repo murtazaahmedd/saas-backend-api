@@ -1,0 +1,9 @@
+[project]
+name = "saas-backend-api"
+version = "0.1.0"
+description = "Multi-tenant SaaS backend: FastAPI, layered architecture, Postgres api.* functions, JWT, RBAC, rate limiting, idempotency"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
